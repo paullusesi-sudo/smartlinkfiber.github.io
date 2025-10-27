@@ -3,21 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Packages | SmartLink Fiber</title>
+  <title>SmartLink Fiber | Stay Connected, Stay Smart</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header>
-    <img src="assets/logo.png" class="logo">
+    <img src="assets/logo.png" alt="SmartLink Fiber Logo" class="logo">
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="packages.html" class="active">Packages</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="packages.html">Packages</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
+
+  <section class="hero" style="background-image: url('assets/flyer.png');">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1>SmartLink Fiber</h1>
+      <p>Stay Connected, Stay Smart</p>
+      <a href="packages.html" class="btn">View Packages</a>
+    </div>
+  </section>
+
+  <section class="intro">
+    <h2>Fast, Reliable & Affordable Internet</h2>
+    <p>Providing affordable and fast Wi-Fi for hostels, homes, rentals, and businesses — 
+       whether you need hourly access or stable monthly plans, SmartLink Fiber has you covered.</p>
+  </section>
+
+  <footer>
+    <p>📞 0796 333 482 | 0700 000 971 | ✉️ net@smartlinkfiber.com</p>
+    <p>© 2025 SmartLink Fiber — Stay Connected, Stay Smart</p>
+  </footer>
+</body>
+</html>
+
 
   <section class="packages">
     <h1>Our Internet Packages</h1>
